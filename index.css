@@ -13,7 +13,7 @@ body {
 
 div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-content: stretch;
   height: 100%;
@@ -24,6 +24,20 @@ div {
   align-self: stretch;
   color: #000000;
 }
+
+/* div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  box-sizing: border-box;
+  align-items: stretch;
+  justify-content: center;
+  padding: 50px;
+  height: 100%;
+}
+
+*/
 
 output {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
