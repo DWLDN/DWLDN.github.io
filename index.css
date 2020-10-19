@@ -14,7 +14,7 @@ div {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: stretch;
-  height: 100vh;
+  height: 100%;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
